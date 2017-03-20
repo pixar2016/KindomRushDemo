@@ -1,0 +1,1668 @@
+{"frames": {
+
+"arrowCossbowTower.png":
+{
+	"frame": {"x":162,"y":266,"w":78,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":4,"w":78,"h":60},
+	"sourceSize": {"w":90,"h":70}
+},
+"arrowTowerlv1.png":
+{
+	"frame": {"x":654,"y":260,"w":74,"h":46},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":74,"h":46},
+	"sourceSize": {"w":80,"h":70}
+},
+"arrowTowerlv2.png":
+{
+	"frame": {"x":804,"y":407,"w":74,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":15,"w":74,"h":48},
+	"sourceSize": {"w":80,"h":70}
+},
+"arrowTowerlv3.png":
+{
+	"frame": {"x":750,"y":407,"w":74,"h":52},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":11,"w":74,"h":52},
+	"sourceSize": {"w":80,"h":70}
+},
+"arrowTurretTower.png":
+{
+	"frame": {"x":950,"y":328,"w":72,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":11,"w":72,"h":56},
+	"sourceSize": {"w":90,"h":70}
+},
+"artilleryTowerEarthquake_1.png":
+{
+	"frame": {"x":812,"y":200,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_10.png":
+{
+	"frame": {"x":722,"y":136,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_11.png":
+{
+	"frame": {"x":632,"y":136,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_12.png":
+{
+	"frame": {"x":542,"y":136,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_13.png":
+{
+	"frame": {"x":902,"y":264,"w":88,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":88,"h":62},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_14.png":
+{
+	"frame": {"x":2,"y":328,"w":88,"h":58},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":9,"w":88,"h":58},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_15.png":
+{
+	"frame": {"x":452,"y":136,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_16.png":
+{
+	"frame": {"x":722,"y":2,"w":88,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":88,"h":66},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_17.png":
+{
+	"frame": {"x":902,"y":200,"w":88,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":88,"h":62},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_18.png":
+{
+	"frame": {"x":362,"y":136,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_19.png":
+{
+	"frame": {"x":272,"y":136,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_2.png":
+{
+	"frame": {"x":2,"y":594,"w":86,"h":64},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":3,"w":86,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_20.png":
+{
+	"frame": {"x":182,"y":136,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_21.png":
+{
+	"frame": {"x":92,"y":136,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_22.png":
+{
+	"frame": {"x":2,"y":136,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_23.png":
+{
+	"frame": {"x":902,"y":134,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_24.png":
+{
+	"frame": {"x":812,"y":134,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_25.png":
+{
+	"frame": {"x":722,"y":70,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_26.png":
+{
+	"frame": {"x":632,"y":70,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_27.png":
+{
+	"frame": {"x":542,"y":70,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_28.png":
+{
+	"frame": {"x":452,"y":70,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_29.png":
+{
+	"frame": {"x":362,"y":70,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_3.png":
+{
+	"frame": {"x":2,"y":506,"w":86,"h":64},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":3,"w":86,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_30.png":
+{
+	"frame": {"x":272,"y":70,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_31.png":
+{
+	"frame": {"x":182,"y":70,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_32.png":
+{
+	"frame": {"x":92,"y":70,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_33.png":
+{
+	"frame": {"x":2,"y":70,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_34.png":
+{
+	"frame": {"x":902,"y":68,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_35.png":
+{
+	"frame": {"x":812,"y":68,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_36.png":
+{
+	"frame": {"x":902,"y":2,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_37.png":
+{
+	"frame": {"x":902,"y":68,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_4.png":
+{
+	"frame": {"x":2,"y":594,"w":86,"h":64},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":3,"w":86,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_5.png":
+{
+	"frame": {"x":2,"y":506,"w":86,"h":64},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":3,"w":86,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_6.png":
+{
+	"frame": {"x":2,"y":594,"w":86,"h":64},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":3,"w":86,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_7.png":
+{
+	"frame": {"x":62,"y":328,"w":86,"h":64},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":3,"w":86,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_8.png":
+{
+	"frame": {"x":2,"y":418,"w":86,"h":64},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":3,"w":86,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerEarthquake_9.png":
+{
+	"frame": {"x":812,"y":2,"w":88,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":88,"h":64},
+	"sourceSize": {"w":90,"h":68}
+},
+"artilleryTowerTesla_1.png":
+{
+	"frame": {"x":877,"y":640,"w":75,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":75,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_10.png":
+{
+	"frame": {"x":835,"y":717,"w":75,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":75,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_11.png":
+{
+	"frame": {"x":817,"y":796,"w":75,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":75,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_12.png":
+{
+	"frame": {"x":809,"y":563,"w":75,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":75,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_13.png":
+{
+	"frame": {"x":590,"y":568,"w":77,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":77,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_14.png":
+{
+	"frame": {"x":804,"y":640,"w":75,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":75,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_15.png":
+{
+	"frame": {"x":762,"y":719,"w":75,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":75,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_16.png":
+{
+	"frame": {"x":749,"y":486,"w":75,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":75,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_17.png":
+{
+	"frame": {"x":736,"y":563,"w":75,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":75,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_18.png":
+{
+	"frame": {"x":731,"y":642,"w":75,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":75,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_19.png":
+{
+	"frame": {"x":585,"y":648,"w":77,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":77,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_2.png":
+{
+	"frame": {"x":541,"y":730,"w":77,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":77,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_20.png":
+{
+	"frame": {"x":813,"y":878,"w":75,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":75,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_21.png":
+{
+	"frame": {"x":744,"y":801,"w":75,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":75,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_22.png":
+{
+	"frame": {"x":740,"y":881,"w":75,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":75,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_23.png":
+{
+	"frame": {"x":689,"y":724,"w":75,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":75,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_24.png":
+{
+	"frame": {"x":523,"y":815,"w":77,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":77,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_25.png":
+{
+	"frame": {"x":614,"y":727,"w":75,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":73},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_26.png":
+{
+	"frame": {"x":596,"y":809,"w":75,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":73},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_27.png":
+{
+	"frame": {"x":592,"y":894,"w":75,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":73},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_28.png":
+{
+	"frame": {"x":602,"y":409,"w":75,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":73},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_29.png":
+{
+	"frame": {"x":601,"y":488,"w":75,"h":73},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":75,"h":73},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_3.png":
+{
+	"frame": {"x":671,"y":804,"w":75,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":75,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_30.png":
+{
+	"frame": {"x":519,"y":899,"w":77,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":77,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_31.png":
+{
+	"frame": {"x":610,"y":336,"w":77,"h":71},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":77,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_32.png":
+{
+	"frame": {"x":702,"y":325,"w":77,"h":71},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":77,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_33.png":
+{
+	"frame": {"x":781,"y":266,"w":77,"h":71},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":77,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_4.png":
+{
+	"frame": {"x":667,"y":886,"w":75,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":75,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_5.png":
+{
+	"frame": {"x":677,"y":409,"w":75,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":75,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_6.png":
+{
+	"frame": {"x":676,"y":486,"w":75,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":75,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_7.png":
+{
+	"frame": {"x":663,"y":565,"w":75,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":75,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_8.png":
+{
+	"frame": {"x":702,"y":252,"w":77,"h":71},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":77,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerTesla_9.png":
+{
+	"frame": {"x":658,"y":647,"w":75,"h":71},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":2,"w":75,"h":71},
+	"sourceSize": {"w":77,"h":73}
+},
+"artilleryTowerlv1_1.png":
+{
+	"frame": {"x":558,"y":328,"w":78,"h":50},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":78,"h":50},
+	"sourceSize": {"w":80,"h":56}
+},
+"artilleryTowerlv1_10.png":
+{
+	"frame": {"x":365,"y":832,"w":80,"h":50},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":80,"h":50},
+	"sourceSize": {"w":80,"h":56}
+},
+"artilleryTowerlv1_11.png":
+{
+	"frame": {"x":148,"y":841,"w":80,"h":54},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":1,"w":80,"h":54},
+	"sourceSize": {"w":80,"h":56}
+},
+"artilleryTowerlv1_12.png":
+{
+	"frame": {"x":384,"y":495,"w":78,"h":54},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":1,"w":78,"h":54},
+	"sourceSize": {"w":80,"h":56}
+},
+"artilleryTowerlv1_13.png":
+{
+	"frame": {"x":702,"y":202,"w":78,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":7,"w":78,"h":48},
+	"sourceSize": {"w":80,"h":56}
+},
+"artilleryTowerlv1_14.png":
+{
+	"frame": {"x":550,"y":408,"w":78,"h":50},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":78,"h":50},
+	"sourceSize": {"w":80,"h":56}
+},
+"artilleryTowerlv1_15.png":
+{
+	"frame": {"x":549,"y":488,"w":78,"h":50},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":78,"h":50},
+	"sourceSize": {"w":80,"h":56}
+},
+"artilleryTowerlv1_16.png":
+{
+	"frame": {"x":538,"y":568,"w":78,"h":50},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":78,"h":50},
+	"sourceSize": {"w":80,"h":56}
+},
+"artilleryTowerlv1_17.png":
+{
+	"frame": {"x":533,"y":650,"w":78,"h":50},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":78,"h":50},
+	"sourceSize": {"w":80,"h":56}
+},
+"artilleryTowerlv1_18.png":
+{
+	"frame": {"x":489,"y":735,"w":78,"h":50},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":78,"h":50},
+	"sourceSize": {"w":80,"h":56}
+},
+"artilleryTowerlv1_19.png":
+{
+	"frame": {"x":471,"y":819,"w":78,"h":50},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":78,"h":50},
+	"sourceSize": {"w":80,"h":56}
+},
+"artilleryTowerlv1_2.png":
+{
+	"frame": {"x":364,"y":914,"w":80,"h":50},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":80,"h":50},
+	"sourceSize": {"w":80,"h":56}
+},
+"artilleryTowerlv1_3.png":
+{
+	"frame": {"x":328,"y":750,"w":80,"h":50},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":80,"h":50},
+	"sourceSize": {"w":80,"h":56}
+},
+"artilleryTowerlv1_4.png":
+{
+	"frame": {"x":313,"y":832,"w":80,"h":50},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":80,"h":50},
+	"sourceSize": {"w":80,"h":56}
+},
+"artilleryTowerlv1_5.png":
+{
+	"frame": {"x":312,"y":917,"w":80,"h":50},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":80,"h":50},
+	"sourceSize": {"w":80,"h":56}
+},
+"artilleryTowerlv1_6.png":
+{
+	"frame": {"x":288,"y":413,"w":80,"h":48},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":7,"w":80,"h":48},
+	"sourceSize": {"w":80,"h":56}
+},
+"artilleryTowerlv1_7.png":
+{
+	"frame": {"x":348,"y":328,"w":80,"h":46},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":9,"w":80,"h":46},
+	"sourceSize": {"w":80,"h":56}
+},
+"artilleryTowerlv1_8.png":
+{
+	"frame": {"x":383,"y":577,"w":80,"h":44},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":11,"w":80,"h":44},
+	"sourceSize": {"w":80,"h":56}
+},
+"artilleryTowerlv1_9.png":
+{
+	"frame": {"x":378,"y":662,"w":80,"h":44},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":11,"w":80,"h":44},
+	"sourceSize": {"w":80,"h":56}
+},
+"artilleryTowerlv2_1.png":
+{
+	"frame": {"x":496,"y":408,"w":78,"h":52},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":78,"h":52},
+	"sourceSize": {"w":80,"h":58}
+},
+"artilleryTowerlv2_10.png":
+{
+	"frame": {"x":274,"y":750,"w":80,"h":52},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":80,"h":52},
+	"sourceSize": {"w":80,"h":58}
+},
+"artilleryTowerlv2_11.png":
+{
+	"frame": {"x":244,"y":202,"w":80,"h":58},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":80,"h":58},
+	"sourceSize": {"w":80,"h":58}
+},
+"artilleryTowerlv2_12.png":
+{
+	"frame": {"x":326,"y":202,"w":78,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":78,"h":58},
+	"sourceSize": {"w":80,"h":58}
+},
+"artilleryTowerlv2_13.png":
+{
+	"frame": {"x":467,"y":904,"w":78,"h":50},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":7,"w":78,"h":50},
+	"sourceSize": {"w":80,"h":58}
+},
+"artilleryTowerlv2_14.png":
+{
+	"frame": {"x":467,"y":904,"w":78,"h":50},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":7,"w":78,"h":50},
+	"sourceSize": {"w":80,"h":58}
+},
+"artilleryTowerlv2_15.png":
+{
+	"frame": {"x":495,"y":488,"w":78,"h":52},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":78,"h":52},
+	"sourceSize": {"w":80,"h":58}
+},
+"artilleryTowerlv2_16.png":
+{
+	"frame": {"x":484,"y":570,"w":78,"h":52},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":78,"h":52},
+	"sourceSize": {"w":80,"h":58}
+},
+"artilleryTowerlv2_17.png":
+{
+	"frame": {"x":479,"y":655,"w":78,"h":52},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":78,"h":52},
+	"sourceSize": {"w":80,"h":58}
+},
+"artilleryTowerlv2_18.png":
+{
+	"frame": {"x":435,"y":739,"w":78,"h":52},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":78,"h":52},
+	"sourceSize": {"w":80,"h":58}
+},
+"artilleryTowerlv2_19.png":
+{
+	"frame": {"x":417,"y":824,"w":78,"h":52},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":78,"h":52},
+	"sourceSize": {"w":80,"h":58}
+},
+"artilleryTowerlv2_2.png":
+{
+	"frame": {"x":259,"y":835,"w":80,"h":52},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":80,"h":52},
+	"sourceSize": {"w":80,"h":58}
+},
+"artilleryTowerlv2_20.png":
+{
+	"frame": {"x":451,"y":328,"w":78,"h":52},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":78,"h":52},
+	"sourceSize": {"w":80,"h":58}
+},
+"artilleryTowerlv2_3.png":
+{
+	"frame": {"x":258,"y":923,"w":80,"h":52},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":80,"h":52},
+	"sourceSize": {"w":80,"h":58}
+},
+"artilleryTowerlv2_4.png":
+{
+	"frame": {"x":222,"y":668,"w":80,"h":52},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":80,"h":52},
+	"sourceSize": {"w":80,"h":58}
+},
+"artilleryTowerlv2_5.png":
+{
+	"frame": {"x":220,"y":753,"w":80,"h":52},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":80,"h":52},
+	"sourceSize": {"w":80,"h":58}
+},
+"artilleryTowerlv2_6.png":
+{
+	"frame": {"x":286,"y":498,"w":80,"h":48},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":9,"w":80,"h":48},
+	"sourceSize": {"w":80,"h":58}
+},
+"artilleryTowerlv2_7.png":
+{
+	"frame": {"x":338,"y":413,"w":80,"h":46},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":11,"w":80,"h":46},
+	"sourceSize": {"w":80,"h":58}
+},
+"artilleryTowerlv2_8.png":
+{
+	"frame": {"x":336,"y":495,"w":80,"h":46},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":11,"w":80,"h":46},
+	"sourceSize": {"w":80,"h":58}
+},
+"artilleryTowerlv2_9.png":
+{
+	"frame": {"x":335,"y":580,"w":80,"h":46},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":11,"w":80,"h":46},
+	"sourceSize": {"w":80,"h":58}
+},
+"artilleryTowerlv3_1.png":
+{
+	"frame": {"x":441,"y":408,"w":78,"h":53},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":78,"h":53},
+	"sourceSize": {"w":80,"h":59}
+},
+"artilleryTowerlv3_10.png":
+{
+	"frame": {"x":242,"y":266,"w":78,"h":59},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":78,"h":59},
+	"sourceSize": {"w":80,"h":59}
+},
+"artilleryTowerlv3_11.png":
+{
+	"frame": {"x":505,"y":328,"w":78,"h":51},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":7,"w":78,"h":51},
+	"sourceSize": {"w":80,"h":59}
+},
+"artilleryTowerlv3_12.png":
+{
+	"frame": {"x":440,"y":490,"w":78,"h":53},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":78,"h":53},
+	"sourceSize": {"w":80,"h":59}
+},
+"artilleryTowerlv3_13.png":
+{
+	"frame": {"x":429,"y":575,"w":78,"h":53},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":78,"h":53},
+	"sourceSize": {"w":80,"h":59}
+},
+"artilleryTowerlv3_14.png":
+{
+	"frame": {"x":424,"y":659,"w":78,"h":53},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":78,"h":53},
+	"sourceSize": {"w":80,"h":59}
+},
+"artilleryTowerlv3_15.png":
+{
+	"frame": {"x":380,"y":744,"w":78,"h":53},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":78,"h":53},
+	"sourceSize": {"w":80,"h":59}
+},
+"artilleryTowerlv3_16.png":
+{
+	"frame": {"x":396,"y":328,"w":78,"h":53},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":78,"h":53},
+	"sourceSize": {"w":80,"h":59}
+},
+"artilleryTowerlv3_17.png":
+{
+	"frame": {"x":386,"y":410,"w":78,"h":53},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":5,"w":78,"h":53},
+	"sourceSize": {"w":80,"h":59}
+},
+"artilleryTowerlv3_2.png":
+{
+	"frame": {"x":204,"y":841,"w":80,"h":53},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":80,"h":53},
+	"sourceSize": {"w":80,"h":59}
+},
+"artilleryTowerlv3_3.png":
+{
+	"frame": {"x":203,"y":923,"w":80,"h":53},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":80,"h":53},
+	"sourceSize": {"w":80,"h":59}
+},
+"artilleryTowerlv3_4.png":
+{
+	"frame": {"x":276,"y":668,"w":80,"h":51},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":7,"w":80,"h":51},
+	"sourceSize": {"w":80,"h":59}
+},
+"artilleryTowerlv3_5.png":
+{
+	"frame": {"x":416,"y":914,"w":80,"h":49},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":9,"w":80,"h":49},
+	"sourceSize": {"w":80,"h":59}
+},
+"artilleryTowerlv3_6.png":
+{
+	"frame": {"x":329,"y":662,"w":80,"h":47},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":11,"w":80,"h":47},
+	"sourceSize": {"w":80,"h":59}
+},
+"artilleryTowerlv3_7.png":
+{
+	"frame": {"x":286,"y":580,"w":80,"h":47},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":11,"w":80,"h":47},
+	"sourceSize": {"w":80,"h":59}
+},
+"artilleryTowerlv3_8.png":
+{
+	"frame": {"x":148,"y":923,"w":80,"h":53},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":80,"h":53},
+	"sourceSize": {"w":80,"h":59}
+},
+"artilleryTowerlv3_9.png":
+{
+	"frame": {"x":162,"y":202,"w":80,"h":59},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":80,"h":59},
+	"sourceSize": {"w":80,"h":59}
+},
+"barrackTowerKnight_1.png":
+{
+	"frame": {"x":882,"y":556,"w":74,"h":66},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":74,"h":66},
+	"sourceSize": {"w":80,"h":70}
+},
+"barrackTowerKnight_2.png":
+{
+	"frame": {"x":882,"y":480,"w":74,"h":66},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":74,"h":66},
+	"sourceSize": {"w":80,"h":70}
+},
+"barrackTowerKnight_3.png":
+{
+	"frame": {"x":882,"y":404,"w":74,"h":66},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":74,"h":66},
+	"sourceSize": {"w":80,"h":70}
+},
+"barrackTowerKnight_4.png":
+{
+	"frame": {"x":882,"y":328,"w":74,"h":66},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":0,"w":74,"h":66},
+	"sourceSize": {"w":80,"h":70}
+},
+"barrackTowerSavage_1.png":
+{
+	"frame": {"x":858,"y":955,"w":74,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":74,"h":66},
+	"sourceSize": {"w":80,"h":70}
+},
+"barrackTowerSavage_2.png":
+{
+	"frame": {"x":578,"y":260,"w":74,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":74,"h":66},
+	"sourceSize": {"w":80,"h":70}
+},
+"barrackTowerSavage_3.png":
+{
+	"frame": {"x":502,"y":260,"w":74,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":74,"h":66},
+	"sourceSize": {"w":80,"h":70}
+},
+"barrackTowerSavage_4.png":
+{
+	"frame": {"x":426,"y":260,"w":74,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":2,"w":74,"h":66},
+	"sourceSize": {"w":80,"h":70}
+},
+"barrackTowerlv1_1.png":
+{
+	"frame": {"x":806,"y":958,"w":64,"h":50},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":7,"w":64,"h":50},
+	"sourceSize": {"w":80,"h":60}
+},
+"barrackTowerlv1_2.png":
+{
+	"frame": {"x":666,"y":971,"w":64,"h":50},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":7,"w":64,"h":50},
+	"sourceSize": {"w":80,"h":60}
+},
+"barrackTowerlv1_3.png":
+{
+	"frame": {"x":374,"y":262,"w":64,"h":50},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":7,"w":64,"h":50},
+	"sourceSize": {"w":80,"h":60}
+},
+"barrackTowerlv1_4.png":
+{
+	"frame": {"x":322,"y":262,"w":64,"h":50},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":7,"w":64,"h":50},
+	"sourceSize": {"w":80,"h":60}
+},
+"barrackTowerlv2_1.png":
+{
+	"frame": {"x":890,"y":794,"w":66,"h":54},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":3,"w":66,"h":54},
+	"sourceSize": {"w":80,"h":60}
+},
+"barrackTowerlv2_2.png":
+{
+	"frame": {"x":934,"y":947,"w":66,"h":54},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":3,"w":66,"h":54},
+	"sourceSize": {"w":80,"h":60}
+},
+"barrackTowerlv2_3.png":
+{
+	"frame": {"x":822,"y":457,"w":66,"h":54},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":3,"w":66,"h":54},
+	"sourceSize": {"w":80,"h":60}
+},
+"barrackTowerlv2_4.png":
+{
+	"frame": {"x":822,"y":339,"w":66,"h":54},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":3,"w":66,"h":54},
+	"sourceSize": {"w":80,"h":60}
+},
+"barrackTowerlv3_1.png":
+{
+	"frame": {"x":82,"y":202,"w":78,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":7,"w":78,"h":60},
+	"sourceSize": {"w":80,"h":70}
+},
+"barrackTowerlv3_2.png":
+{
+	"frame": {"x":82,"y":266,"w":78,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":7,"w":78,"h":60},
+	"sourceSize": {"w":80,"h":70}
+},
+"barrackTowerlv3_3.png":
+{
+	"frame": {"x":2,"y":202,"w":78,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":7,"w":78,"h":60},
+	"sourceSize": {"w":80,"h":70}
+},
+"barrackTowerlv3_4.png":
+{
+	"frame": {"x":2,"y":266,"w":78,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":7,"w":78,"h":60},
+	"sourceSize": {"w":80,"h":70}
+},
+"mageTowerMaster_1.png":
+{
+	"frame": {"x":214,"y":583,"w":83,"h":70},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":83,"h":70},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_10.png":
+{
+	"frame": {"x":202,"y":328,"w":83,"h":72},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":83,"h":72},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_11.png":
+{
+	"frame": {"x":142,"y":413,"w":83,"h":72},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":83,"h":72},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_12.png":
+{
+	"frame": {"x":76,"y":671,"w":83,"h":72},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":83,"h":72},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_13.png":
+{
+	"frame": {"x":142,"y":413,"w":83,"h":72},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":83,"h":72},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_14.png":
+{
+	"frame": {"x":76,"y":671,"w":83,"h":72},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":83,"h":72},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_15.png":
+{
+	"frame": {"x":142,"y":413,"w":83,"h":72},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":83,"h":72},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_16.png":
+{
+	"frame": {"x":76,"y":671,"w":83,"h":72},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":83,"h":72},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_17.png":
+{
+	"frame": {"x":142,"y":413,"w":83,"h":72},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":83,"h":72},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_18.png":
+{
+	"frame": {"x":76,"y":671,"w":83,"h":72},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":83,"h":72},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_19.png":
+{
+	"frame": {"x":276,"y":328,"w":83,"h":70},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":83,"h":70},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_2.png":
+{
+	"frame": {"x":216,"y":413,"w":83,"h":70},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":83,"h":70},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_20.png":
+{
+	"frame": {"x":214,"y":498,"w":83,"h":70},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":83,"h":70},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_21.png":
+{
+	"frame": {"x":214,"y":583,"w":83,"h":70},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":83,"h":70},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_22.png":
+{
+	"frame": {"x":150,"y":668,"w":83,"h":70},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":83,"h":70},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_23.png":
+{
+	"frame": {"x":148,"y":756,"w":83,"h":70},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":83,"h":70},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_24.png":
+{
+	"frame": {"x":68,"y":586,"w":83,"h":72},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":83,"h":72},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_25.png":
+{
+	"frame": {"x":68,"y":501,"w":83,"h":72},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":83,"h":72},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_26.png":
+{
+	"frame": {"x":128,"y":328,"w":83,"h":72},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":83,"h":72},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_27.png":
+{
+	"frame": {"x":76,"y":926,"w":83,"h":70},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":83,"h":70},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_28.png":
+{
+	"frame": {"x":76,"y":841,"w":83,"h":70},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":83,"h":70},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_29.png":
+{
+	"frame": {"x":76,"y":756,"w":83,"h":70},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":83,"h":70},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_3.png":
+{
+	"frame": {"x":142,"y":583,"w":83,"h":70},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":83,"h":70},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_4.png":
+{
+	"frame": {"x":142,"y":498,"w":83,"h":70},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":5,"w":83,"h":70},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_5.png":
+{
+	"frame": {"x":68,"y":416,"w":83,"h":72},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":83,"h":72},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_6.png":
+{
+	"frame": {"x":2,"y":937,"w":83,"h":72},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":83,"h":72},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_7.png":
+{
+	"frame": {"x":2,"y":852,"w":83,"h":72},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":83,"h":72},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_8.png":
+{
+	"frame": {"x":2,"y":767,"w":83,"h":72},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":83,"h":72},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerMaster_9.png":
+{
+	"frame": {"x":2,"y":682,"w":83,"h":72},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":3,"w":83,"h":72},
+	"sourceSize": {"w":85,"h":80}
+},
+"mageTowerNecromancer_1.png":
+{
+	"frame": {"x":632,"y":2,"w":88,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":11,"w":88,"h":66},
+	"sourceSize": {"w":90,"h":80}
+},
+"mageTowerNecromancer_2.png":
+{
+	"frame": {"x":632,"y":2,"w":88,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":11,"w":88,"h":66},
+	"sourceSize": {"w":90,"h":80}
+},
+"mageTowerNecromancer_3.png":
+{
+	"frame": {"x":542,"y":2,"w":88,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":11,"w":88,"h":66},
+	"sourceSize": {"w":90,"h":80}
+},
+"mageTowerNecromancer_4.png":
+{
+	"frame": {"x":452,"y":2,"w":88,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":11,"w":88,"h":66},
+	"sourceSize": {"w":90,"h":80}
+},
+"mageTowerNecromancer_5.png":
+{
+	"frame": {"x":362,"y":2,"w":88,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":11,"w":88,"h":66},
+	"sourceSize": {"w":90,"h":80}
+},
+"mageTowerNecromancer_6.png":
+{
+	"frame": {"x":272,"y":2,"w":88,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":11,"w":88,"h":66},
+	"sourceSize": {"w":90,"h":80}
+},
+"mageTowerNecromancer_7.png":
+{
+	"frame": {"x":182,"y":2,"w":88,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":11,"w":88,"h":66},
+	"sourceSize": {"w":90,"h":80}
+},
+"mageTowerNecromancer_8.png":
+{
+	"frame": {"x":92,"y":2,"w":88,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":11,"w":88,"h":66},
+	"sourceSize": {"w":90,"h":80}
+},
+"mageTowerNecromancer_9.png":
+{
+	"frame": {"x":2,"y":2,"w":88,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":11,"w":88,"h":66},
+	"sourceSize": {"w":90,"h":80}
+},
+"mageTowerlv1_1.png":
+{
+	"frame": {"x":886,"y":873,"w":72,"h":48},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":17,"w":72,"h":48},
+	"sourceSize": {"w":80,"h":70}
+},
+"mageTowerlv1_2.png":
+{
+	"frame": {"x":950,"y":686,"w":72,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":17,"w":72,"h":48},
+	"sourceSize": {"w":80,"h":70}
+},
+"mageTowerlv1_3.png":
+{
+	"frame": {"x":950,"y":636,"w":72,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":17,"w":72,"h":48},
+	"sourceSize": {"w":80,"h":70}
+},
+"mageTowerlv1_4.png":
+{
+	"frame": {"x":950,"y":586,"w":72,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":17,"w":72,"h":48},
+	"sourceSize": {"w":80,"h":70}
+},
+"mageTowerlv1_5.png":
+{
+	"frame": {"x":592,"y":971,"w":72,"h":50},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":15,"w":72,"h":50},
+	"sourceSize": {"w":80,"h":70}
+},
+"mageTowerlv1_6.png":
+{
+	"frame": {"x":886,"y":873,"w":72,"h":48},
+	"rotated": true,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":17,"w":72,"h":48},
+	"sourceSize": {"w":80,"h":70}
+},
+"mageTowerlv2_1.png":
+{
+	"frame": {"x":950,"y":536,"w":72,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":17,"w":72,"h":48},
+	"sourceSize": {"w":80,"h":70}
+},
+"mageTowerlv2_2.png":
+{
+	"frame": {"x":950,"y":486,"w":72,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":17,"w":72,"h":48},
+	"sourceSize": {"w":80,"h":70}
+},
+"mageTowerlv2_3.png":
+{
+	"frame": {"x":950,"y":436,"w":72,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":17,"w":72,"h":48},
+	"sourceSize": {"w":80,"h":70}
+},
+"mageTowerlv2_4.png":
+{
+	"frame": {"x":950,"y":436,"w":72,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":17,"w":72,"h":48},
+	"sourceSize": {"w":80,"h":70}
+},
+"mageTowerlv2_5.png":
+{
+	"frame": {"x":950,"y":386,"w":72,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":17,"w":72,"h":48},
+	"sourceSize": {"w":80,"h":70}
+},
+"mageTowerlv2_6.png":
+{
+	"frame": {"x":950,"y":536,"w":72,"h":48},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":17,"w":72,"h":48},
+	"sourceSize": {"w":80,"h":70}
+},
+"mageTowerlv3_1.png":
+{
+	"frame": {"x":732,"y":963,"w":72,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":9,"w":72,"h":56},
+	"sourceSize": {"w":80,"h":70}
+},
+"mageTowerlv3_2.png":
+{
+	"frame": {"x":628,"y":202,"w":72,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":9,"w":72,"h":56},
+	"sourceSize": {"w":80,"h":70}
+},
+"mageTowerlv3_3.png":
+{
+	"frame": {"x":554,"y":202,"w":72,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":9,"w":72,"h":56},
+	"sourceSize": {"w":80,"h":70}
+},
+"mageTowerlv3_4.png":
+{
+	"frame": {"x":480,"y":202,"w":72,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":9,"w":72,"h":56},
+	"sourceSize": {"w":80,"h":70}
+},
+"mageTowerlv3_5.png":
+{
+	"frame": {"x":406,"y":202,"w":72,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":9,"w":72,"h":56},
+	"sourceSize": {"w":80,"h":70}
+},
+"mageTowerlv3_6.png":
+{
+	"frame": {"x":732,"y":963,"w":72,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":9,"w":72,"h":56},
+	"sourceSize": {"w":80,"h":70}
+}},
+"meta": {
+	"app": "http://www.texturepacker.com",
+	"version": "1.0",
+	"image": "Tower1.png",
+	"format": "RGBA8888",
+	"size": {"w":1024,"h":1024},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:271726e358440aecce7ee9e2fb157c7a$"
+}
+}

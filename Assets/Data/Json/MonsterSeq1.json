@@ -1,0 +1,110 @@
+﻿[
+  {
+    "id": 1.0,
+    "wave": 1.0,
+    "monsterId": 10001.0,
+    "pathId": 1.0
+  },
+  {
+    "id": 2.0,
+    "wave": 1.0,
+    "monsterId": 10001.0,
+    "pathId": 2.0
+  },
+  {
+    "id": 3.0,
+    "wave": 1.0,
+    "monsterId": 10001.0,
+    "pathId": 3.0
+  },
+  {
+    "id": 4.0,
+    "wave": 1.0,
+    "monsterId": 10001.0,
+    "pathId": 1.0
+  },
+  {
+    "id": 5.0,
+    "wave": 1.0,
+    "monsterId": 10001.0,
+    "pathId": 1.0
+  },
+  {
+    "id": 6.0,
+    "wave": 1.0,
+    "monsterId": 10001.0,
+    "pathId": 2.0
+  },
+  {
+    "id": 7.0,
+    "wave": 2.0,
+    "monsterId": 10001.0,
+    "pathId": 1.0
+  },
+  {
+    "id": 8.0,
+    "wave": 2.0,
+    "monsterId": 10001.0,
+    "pathId": 2.0
+  },
+  {
+    "id": 9.0,
+    "wave": 2.0,
+    "monsterId": 10001.0,
+    "pathId": 3.0
+  },
+  {
+    "id": 10.0,
+    "wave": 3.0,
+    "monsterId": 10001.0,
+    "pathId": 1.0
+  },
+  {
+    "id": 11.0,
+    "wave": 3.0,
+    "monsterId": 10001.0,
+    "pathId": 2.0
+  },
+  {
+    "id": 12.0,
+    "wave": 3.0,
+    "monsterId": 10001.0,
+    "pathId": 3.0
+  },
+  {
+    "id": 13.0,
+    "wave": 4.0,
+    "monsterId": 10001.0,
+    "pathId": 1.0
+  },
+  {
+    "id": 14.0,
+    "wave": 4.0,
+    "monsterId": 10001.0,
+    "pathId": 2.0
+  },
+  {
+    "id": 15.0,
+    "wave": 4.0,
+    "monsterId": 10001.0,
+    "pathId": 3.0
+  },
+  {
+    "id": 16.0,
+    "wave": 5.0,
+    "monsterId": 10001.0,
+    "pathId": 1.0
+  },
+  {
+    "id": 17.0,
+    "wave": 5.0,
+    "monsterId": 10001.0,
+    "pathId": 2.0
+  },
+  {
+    "id": 18.0,
+    "wave": 5.0,
+    "monsterId": 10001.0,
+    "pathId": 3.0
+  }
+]

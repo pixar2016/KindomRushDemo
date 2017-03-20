@@ -1,0 +1,20 @@
+﻿[
+  {
+    "id": 1.0,
+    "name": "近战普通攻击",
+    "triggerId": 1.0,
+    "": null
+  },
+  {
+    "id": 2.0,
+    "name": "远程普通攻击",
+    "triggerId": 2.0,
+    "": null
+  },
+  {
+    "id": 3.0,
+    "name": "弓箭伤害",
+    "triggerId": 3.0,
+    "": null
+  }
+]

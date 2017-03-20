@@ -1,0 +1,26 @@
+﻿[
+  {
+    "id": 1.0,
+    "modelName": "箭塔",
+    "modelPath": "Prefabs/ArrowTower.prefab",
+    "": null
+  },
+  {
+    "id": 2.0,
+    "modelName": "魔法塔",
+    "modelPath": "Prefabs/MageTower.prefab",
+    "": null
+  },
+  {
+    "id": 3.0,
+    "modelName": "炮塔",
+    "modelPath": "Prefabs/ArtilleryTower.prefab",
+    "": null
+  },
+  {
+    "id": 4.0,
+    "modelName": "兵营",
+    "modelPath": "Prefabs/SoliderTower.prefab",
+    "": null
+  }
+]

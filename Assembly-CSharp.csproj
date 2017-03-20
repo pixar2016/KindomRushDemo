@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{98F17F5A-11AA-D8AB-090E-DD1A0D92748A}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_6;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Data\CS\Creature.cs" />
+     <Compile Include="Assets\Data\CS\Map.cs" />
+     <Compile Include="Assets\Data\CS\ModelResource.cs" />
+     <Compile Include="Assets\Data\CS\Skill.cs" />
+     <Compile Include="Assets\Data\CS\SkillEvent.cs" />
+     <Compile Include="Assets\Data\CS\Tower.cs" />
+     <Compile Include="Assets\FingerEvent.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\AdvancedPinchRotationSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\FingerEventsSamplePart1.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\FingerEventsSamplePart2.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\BasicSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\DragTrail.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\EmitParticles.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\MenuNode.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\SampleBase.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\SampleUI.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\StartMenu.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\Internal\SwipeParticlesEmitter.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\MultiFingerSwipeSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\OneFingerGestureSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\PinchRotationSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\ToolboxDragDropSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\ToolboxFingerEventsSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\ToolboxOneFingerGestureSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\Scripts\TwoFingerGestureSample.cs" />
+     <Compile Include="Assets\FingerGestures\Samples\TouchPhaseVisualizer.cs" />
+     <Compile Include="Assets\FingerGestures\SkeletonCode\CSharpSkeleton.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\Misc\TBDragOrbit.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\Misc\TBPinchZoom.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBComponent.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBDrag.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBFingerDown.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBFingerUp.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBInputManager.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBLongPress.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBSwipe.cs" />
+     <Compile Include="Assets\FingerGestures\Toolbox\TBTap.cs" />
+     <Compile Include="Assets\FingerGestures\Utils\GestureStateTracker.cs" />
+     <Compile Include="Assets\FingerGestures\Utils\MoveToFinger.cs" />
+     <Compile Include="Assets\Scripts\Battle\BattleFingerEvent.cs" />
+     <Compile Include="Assets\Scripts\Battle\Click\ClickInfo.cs" />
+     <Compile Include="Assets\Scripts\Battle\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Battle\MonsterSequence.cs" />
+     <Compile Include="Assets\Scripts\Battle\Objects\AttackTowerInfo.cs" />
+     <Compile Include="Assets\Scripts\Battle\Objects\BarrackTowerInfo.cs" />
+     <Compile Include="Assets\Scripts\Battle\Objects\BulletInfo.cs" />
+     <Compile Include="Assets\Scripts\Battle\Objects\CharacterInfo.cs" />
+     <Compile Include="Assets\Scripts\Battle\Objects\EffectInfo.cs" />
+     <Compile Include="Assets\Scripts\Battle\Objects\EntityManager.cs" />
+     <Compile Include="Assets\Scripts\Battle\Objects\MonsterInfo.cs" />
+     <Compile Include="Assets\Scripts\Battle\Objects\OpenSpaceInfo.cs" />
+     <Compile Include="Assets\Scripts\Battle\Objects\SoliderInfo.cs" />
+     <Compile Include="Assets\Scripts\Battle\Objects\TowerInfo.cs" />
+     <Compile Include="Assets\Scripts\Battle\PathInfo.cs" />
+     <Compile Include="Assets\Scripts\Battle\PathLoader.cs" />
+     <Compile Include="Assets\Scripts\Battle\State\BarrackState\BarrackIdle.cs" />
+     <Compile Include="Assets\Scripts\Battle\State\BarrackState\BarrackStart.cs" />
+     <Compile Include="Assets\Scripts\Battle\State\MonsterState\CreatureAtk.cs" />
+     <Compile Include="Assets\Scripts\Battle\State\MonsterState\CreatureDead.cs" />
+     <Compile Include="Assets\Scripts\Battle\State\MonsterState\CreatureIdle.cs" />
+     <Compile Include="Assets\Scripts\Battle\State\MonsterState\CreatureMove.cs" />
+     <Compile Include="Assets\Scripts\Battle\State\OpenSpaceState\OpenSpaceConstructing.cs" />
+     <Compile Include="Assets\Scripts\Battle\State\SoliderState\SoliderAtk.cs" />
+     <Compile Include="Assets\Scripts\Battle\State\SoliderState\SoliderDead.cs" />
+     <Compile Include="Assets\Scripts\Battle\State\SoliderState\SoliderIdle.cs" />
+     <Compile Include="Assets\Scripts\Battle\State\SoliderState\SoliderMove.cs" />
+     <Compile Include="Assets\Scripts\Battle\State\SoliderState\SoliderReady.cs" />
+     <Compile Include="Assets\Scripts\Battle\State\StateBase.cs" />
+     <Compile Include="Assets\Scripts\Battle\State\StateMachine.cs" />
+     <Compile Include="Assets\Scripts\Battle\State\TowerState\TowerAtk.cs" />
+     <Compile Include="Assets\Scripts\Battle\State\TowerState\TowerIdle.cs" />
+     <Compile Include="Assets\Scripts\Battle\View\ArrowTowerView.cs" />
+     <Compile Include="Assets\Scripts\Battle\View\BarrackTowerView.cs" />
+     <Compile Include="Assets\Scripts\Battle\View\BulletView.cs" />
+     <Compile Include="Assets\Scripts\Battle\View\CharacterView.cs" />
+     <Compile Include="Assets\Scripts\Battle\View\EffectView.cs" />
+     <Compile Include="Assets\Scripts\Battle\View\EntityViewManager.cs" />
+     <Compile Include="Assets\Scripts\Battle\View\OpenSpaceView.cs" />
+     <Compile Include="Assets\Scripts\Battle\View\TowerView.cs" />
+     <Compile Include="Assets\Scripts\DataPreLoader.cs" />
+     <Compile Include="Assets\Scripts\Loader\AssetBundleLoadOperation.cs" />
+     <Compile Include="Assets\Scripts\Loader\AssetBundleManager.cs" />
+     <Compile Include="Assets\Scripts\Loader\GameLoader.cs" />
+     <Compile Include="Assets\Scripts\Loader\MiniJSON.cs" />
+     <Compile Include="Assets\Scripts\Loader\PersistentLoader.cs" />
+     <Compile Include="Assets\Scripts\Loader\SimpleJSON.cs" />
+     <Compile Include="Assets\Scripts\Skill\SkillInfo.cs" />
+     <Compile Include="Assets\Scripts\Skill\SkillManager.cs" />
+     <Compile Include="Assets\Scripts\Trigger\TriggerManager.cs" />
+     <Compile Include="Assets\Scripts\Trigger\info\TriggerCondInfo.cs" />
+     <Compile Include="Assets\Scripts\Trigger\info\TriggerConfigData.cs" />
+     <Compile Include="Assets\Scripts\Trigger\info\TriggerEffectInfo.cs" />
+     <Compile Include="Assets\Scripts\Trigger\info\TriggerGroup.cs" />
+     <Compile Include="Assets\Scripts\Trigger\info\TriggerInfo.cs" />
+     <Compile Include="Assets\Scripts\Trigger\logic\TriggerCondBase.cs" />
+     <Compile Include="Assets\Scripts\Trigger\logic\TriggerCondLogic_ActionEnd.cs" />
+     <Compile Include="Assets\Scripts\Trigger\logic\TriggerCondLogic_SkillEvent.cs" />
+     <Compile Include="Assets\Scripts\Trigger\logic\TriggerEffectBase.cs" />
+     <Compile Include="Assets\Scripts\Trigger\logic\TriggerEffectLogic_Action.cs" />
+     <Compile Include="Assets\Scripts\Trigger\logic\TriggerEffectLogic_Bullet.cs" />
+     <Compile Include="Assets\Scripts\Trigger\logic\TriggerEffectLogic_Hurt.cs" />
+     <Compile Include="Assets\Scripts\Trigger\logic\TriggerEffectLogic_SkillEvent.cs" />
+     <Compile Include="Assets\Scripts\UI\SelectPanel.cs" />
+     <Compile Include="Assets\Scripts\UI\SpriteAtlas.cs" />
+     <Compile Include="Assets\Scripts\UI\UIComponent.cs" />
+     <Compile Include="Assets\Scripts\UI\UIDataSetting.cs" />
+     <Compile Include="Assets\Scripts\UI\UIEventListener.cs" />
+     <Compile Include="Assets\Scripts\UI\UiManager.cs" />
+     <Compile Include="Assets\SuperSplinesPro\Scripts\Animation\SplineAnimator.cs" />
+     <Compile Include="Assets\SuperSplinesPro\Scripts\Animation\SplineAnimatorClosestPoint.cs" />
+     <Compile Include="Assets\SuperSplinesPro\Scripts\Animation\SplineAnimatorCustomValue.cs" />
+     <Compile Include="Assets\SuperSplinesPro\Scripts\Design\SplineAutoAlign.cs" />
+     <Compile Include="Assets\SuperSplinesPro\Scripts\MeshModifiers\SplineMeshModifierExample.cs" />
+     <Compile Include="Assets\SuperSplinesPro\Scripts\Physics\SplineGravitySimulator.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\BranchingSpline\BranchingSpline.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\Spline\Spline.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\Spline\SplineDistanceFunctions.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\Spline\SplineGizmos.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\Spline\SplineInterpolator.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\Spline\SplineLengthData.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\Spline\SplineSegment.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\SplineMesh\MeshModifiers\SplineCurveScaleModifier.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\SplineMesh\MeshModifiers\SplineSineScaleModifier.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\SplineMesh\MeshModifiers\SplineTwistModifier.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\SplineMesh\SplineMesh.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\SplineMesh\SplineMeshModifier.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\SplineNode\SplineNode.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplines\Utilities\QuaternionUtils.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplinesSamples\SampleAssets\Scripts\AlterSineMeshModifier.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplinesSamples\SampleAssets\Scripts\AlterTwistMeshModifier.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplinesSamples\SampleAssets\Scripts\BranchingSplineDemo.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplinesSamples\SampleAssets\Scripts\CarAnimator.cs" />
+     <Compile Include="Assets\SuperSplinesPro\SuperSplinesSamples\SampleAssets\Scripts\VectorArrayInterpolation.cs" />
+     <Compile Include="Assets\TimerSample.cs" />
+     <Compile Include="Assets\Utils\EventMgr\DispatcherEventInvok.cs" />
+     <Compile Include="Assets\Utils\EventMgr\Event.cs" />
+     <Compile Include="Assets\Utils\EventMgr\EventListenerData.cs" />
+     <Compile Include="Assets\Utils\EventMgr\EventsDispatcher.cs" />
+     <Compile Include="Assets\Utils\EventMgr\EventsMgr.cs" />
+     <Compile Include="Assets\Utils\EventMgr\IEvent.cs" />
+     <Compile Include="Assets\Utils\EventMgr\IEventDispatcher.cs" />
+     <Compile Include="Assets\Utils\EventMgr\InvokBase.cs" />
+     <Compile Include="Assets\Utils\EventMgr\MiniEventDispatcher.cs" />
+     <Compile Include="Assets\Utils\EventMgr\SampleEvent.cs" />
+     <Compile Include="Assets\Utils\EventMgr\SampleObservedComponent.cs" />
+     <Compile Include="Assets\Utils\EventMgr\SampleObserverComponent.cs" />
+     <Compile Include="Assets\Utils\EventMgr\testEvent.cs" />
+     <Compile Include="Assets\Utils\ExcelTools\ExcelTools.cs" />
+     <Compile Include="Assets\Utils\ExcelTools\ExcelUtility.cs" />
+     <Compile Include="Assets\Utils\FileUtils.cs" />
+     <Compile Include="Assets\Utils\LitJson\IJsonWrapper.cs" />
+     <Compile Include="Assets\Utils\LitJson\JsonData.cs" />
+     <Compile Include="Assets\Utils\LitJson\JsonException.cs" />
+     <Compile Include="Assets\Utils\LitJson\JsonMapper.cs" />
+     <Compile Include="Assets\Utils\LitJson\JsonMockWrapper.cs" />
+     <Compile Include="Assets\Utils\LitJson\JsonReader.cs" />
+     <Compile Include="Assets\Utils\LitJson\JsonWriter.cs" />
+     <Compile Include="Assets\Utils\LitJson\Lexer.cs" />
+     <Compile Include="Assets\Utils\LitJson\ParserToken.cs" />
+     <Compile Include="Assets\Utils\PathTools\ConvertJsonToPath.cs" />
+     <Compile Include="Assets\Utils\PathTools\ConvertPathToJson.cs" />
+     <Compile Include="Assets\Utils\PathTools\JsonToSpline.cs" />
+     <Compile Include="Assets\Utils\PathTools\NodeCreator.cs" />
+     <Compile Include="Assets\Utils\PathTools\SavePath.cs" />
+     <Compile Include="Assets\Utils\PathTools\SplineCreator.cs" />
+     <Compile Include="Assets\Utils\PathTools\SplineToJson.cs" />
+     <Compile Include="Assets\Utils\PathTools\TestWindow.cs" />
+     <Compile Include="Assets\Utils\PathTools\TowerCreator.cs" />
+     <Compile Include="Assets\Utils\PathTools\WritePath.cs" />
+     <Compile Include="Assets\Utils\Timer\TimerSystem.cs" />
+     <Compile Include="Assets\animManager\Animate.cs" />
+     <Compile Include="Assets\animManager\AnimationCache.cs" />
+     <Compile Include="Assets\animManager\MeshAnimation.cs" />
+     <Compile Include="Assets\animManager\MyAnimation.cs" />
+     <Compile Include="Assets\animManager\SpriteFrame.cs" />
+     <Compile Include="Assets\animManager\SpriteFrameCache.cs" />
+     <Compile Include="Assets\animManager\SpriteImage.cs" />
+     <Compile Include="Assets\animManager\Test1.cs" />
+     <Compile Include="Assets\test.cs" />
+     <Compile Include="Assets\testFinger.cs" />
+     <None Include="Assets\Readme.txt" />
+     <None Include="Assets\Data\CSModel.txt" />
+     <None Include="Assets\Resources\Config\Monster.txt" />
+     <None Include="Assets\Resources\Config\Tower2.txt" />
+     <None Include="Assets\Resources\Config\Tower1.txt" />
+     <None Include="Assets\Resources\Config\monster1.txt" />
+     <None Include="Assets\SuperSplinesPro\ReadMe.txt" />
+     <None Include="Assets\Resources\Config\SavageBird.txt" />
+     <None Include="Assets\Resources\Config\Solider.txt" />
+     <None Include="Assets\Resources\Shader\Tile.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="HeroClient">
+ <HintPath>D:/KindomRushDemo/Assets/RuntimeLibs/HeroClient.dll</HintPath>
+ </Reference>
+ <Reference Include="HeroLogic">
+ <HintPath>D:/KindomRushDemo/Assets/RuntimeLibs/HeroLogic.dll</HintPath>
+ </Reference>
+ <Reference Include="Excel">
+ <HintPath>D:/KindomRushDemo/Assets/Utils/PluginsDLL/Excel.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>D:/KindomRushDemo/Assets/Utils/PluginsDLL/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="Newtonsoft.Json">
+ <HintPath>D:/KindomRushDemo/Assets/Utils/PluginsDLL/Newtonsoft.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Data">
+ <HintPath>D:/KindomRushDemo/Assets/Utils/PluginsDLL/System.Data.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{4F814171-022A-E1CB-E7B1-037B333C9D15}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

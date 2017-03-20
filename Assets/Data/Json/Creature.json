@@ -1,0 +1,47 @@
+﻿[
+  {
+    "id": 10001.0,
+    "name": "狼",
+    "modelName": "wulf",
+    "hp": 100.0,
+    "attackSpeed": 2.0,
+    "attackDamage": 2.0,
+    "defenceType": 1.0,
+    "attackRange": 1.0,
+    "description": "普通食人魔",
+    "skill1": null,
+    "skill2": null,
+    "skill3": null,
+    "skill4": null
+  },
+  {
+    "id": 10002.0,
+    "name": "树人",
+    "modelName": null,
+    "hp": 200.0,
+    "attackSpeed": 2.0,
+    "attackDamage": 3.0,
+    "defenceType": 2.0,
+    "attackRange": 1.0,
+    "description": "普通树人",
+    "skill1": null,
+    "skill2": null,
+    "skill3": null,
+    "skill4": null
+  },
+  {
+    "id": 50001.0,
+    "name": "骑士",
+    "modelName": "knight",
+    "hp": 500.0,
+    "attackSpeed": 2.0,
+    "attackDamage": 3.0,
+    "defenceType": 2.0,
+    "attackRange": 1.0,
+    "description": "骑士兵种",
+    "skill1": null,
+    "skill2": null,
+    "skill3": null,
+    "skill4": null
+  }
+]

@@ -1,0 +1,11 @@
+﻿[
+  {
+    "id": 1.0,
+    "name": "第一关",
+    "wave": 3.0,
+    "hp": 20.0,
+    "gold": 300.0,
+    "pathJson": "level1",
+    "monsterJson": "MonsterSeq1"
+  }
+]
