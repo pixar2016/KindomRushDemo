@@ -4,7 +4,6 @@ using UnityEngine.UI;
 
 //建造选择界面
 
-
 public class SelectPanel : UIComponent
 {
     int panelType;
