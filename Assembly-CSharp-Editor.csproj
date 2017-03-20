@@ -66,7 +66,7 @@
      <None Include="Assets\Resources\Config\Solider.txt" />
      <None Include="Assets\Resources\Shader\Tile.shader" />
  <Reference Include="Assembly-UnityScript">
- <HintPath>D:/KindomRushDemo/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
+ <HintPath>D:/KindomRushDemo/KindomRushDemo/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -93,22 +93,22 @@
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TreeEditor/Editor/UnityEditor.TreeEditor.dll</HintPath>
  </Reference>
  <Reference Include="HeroClient">
- <HintPath>D:/KindomRushDemo/Assets/RuntimeLibs/HeroClient.dll</HintPath>
+ <HintPath>D:/KindomRushDemo/KindomRushDemo/Assets/RuntimeLibs/HeroClient.dll</HintPath>
  </Reference>
  <Reference Include="HeroLogic">
- <HintPath>D:/KindomRushDemo/Assets/RuntimeLibs/HeroLogic.dll</HintPath>
+ <HintPath>D:/KindomRushDemo/KindomRushDemo/Assets/RuntimeLibs/HeroLogic.dll</HintPath>
  </Reference>
  <Reference Include="Excel">
- <HintPath>D:/KindomRushDemo/Assets/Utils/PluginsDLL/Excel.dll</HintPath>
+ <HintPath>D:/KindomRushDemo/KindomRushDemo/Assets/Utils/PluginsDLL/Excel.dll</HintPath>
  </Reference>
  <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>D:/KindomRushDemo/Assets/Utils/PluginsDLL/ICSharpCode.SharpZipLib.dll</HintPath>
+ <HintPath>D:/KindomRushDemo/KindomRushDemo/Assets/Utils/PluginsDLL/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>D:/KindomRushDemo/Assets/Utils/PluginsDLL/Newtonsoft.Json.dll</HintPath>
+ <HintPath>D:/KindomRushDemo/KindomRushDemo/Assets/Utils/PluginsDLL/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="System.Data">
- <HintPath>D:/KindomRushDemo/Assets/Utils/PluginsDLL/System.Data.dll</HintPath>
+ <HintPath>D:/KindomRushDemo/KindomRushDemo/Assets/Utils/PluginsDLL/System.Data.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>

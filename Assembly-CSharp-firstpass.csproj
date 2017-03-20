@@ -79,22 +79,22 @@
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
  </Reference>
  <Reference Include="HeroClient">
- <HintPath>D:/KindomRushDemo/Assets/RuntimeLibs/HeroClient.dll</HintPath>
+ <HintPath>D:/KindomRushDemo/KindomRushDemo/Assets/RuntimeLibs/HeroClient.dll</HintPath>
  </Reference>
  <Reference Include="HeroLogic">
- <HintPath>D:/KindomRushDemo/Assets/RuntimeLibs/HeroLogic.dll</HintPath>
+ <HintPath>D:/KindomRushDemo/KindomRushDemo/Assets/RuntimeLibs/HeroLogic.dll</HintPath>
  </Reference>
  <Reference Include="Excel">
- <HintPath>D:/KindomRushDemo/Assets/Utils/PluginsDLL/Excel.dll</HintPath>
+ <HintPath>D:/KindomRushDemo/KindomRushDemo/Assets/Utils/PluginsDLL/Excel.dll</HintPath>
  </Reference>
  <Reference Include="ICSharpCode.SharpZipLib">
- <HintPath>D:/KindomRushDemo/Assets/Utils/PluginsDLL/ICSharpCode.SharpZipLib.dll</HintPath>
+ <HintPath>D:/KindomRushDemo/KindomRushDemo/Assets/Utils/PluginsDLL/ICSharpCode.SharpZipLib.dll</HintPath>
  </Reference>
  <Reference Include="Newtonsoft.Json">
- <HintPath>D:/KindomRushDemo/Assets/Utils/PluginsDLL/Newtonsoft.Json.dll</HintPath>
+ <HintPath>D:/KindomRushDemo/KindomRushDemo/Assets/Utils/PluginsDLL/Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="System.Data">
- <HintPath>D:/KindomRushDemo/Assets/Utils/PluginsDLL/System.Data.dll</HintPath>
+ <HintPath>D:/KindomRushDemo/KindomRushDemo/Assets/Utils/PluginsDLL/System.Data.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

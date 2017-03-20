@@ -86,7 +86,11 @@ public class SelectPanel : UIComponent
 
     public void OnBtnArrowTowerClick(GameObject go)
     {
+        Debug.Log("OnBtnArrowTowerClick");
         //UiManager.Instance.CloseUIById(UIDefine.eSelectPanel);
+        EntityManager.getInstance().RemoveTower(towerInfo.Id);
+        EntityManager.getInstance().AddTower(2);
+        UiManager.Instance.CloseUIById(UIDefine.eSelectPanel);
     }
 
     public void OnBtnMageTowerClick(GameObject go)

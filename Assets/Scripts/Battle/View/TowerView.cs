@@ -5,6 +5,7 @@ using UnityEngine;
 public class TowerView
 {
     public TowerInfo towerInfo;
+    public ILoadAsset towerAsset;
     public GameObject towerObj;
     public TowerView()
     {

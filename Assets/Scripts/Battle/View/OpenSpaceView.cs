@@ -13,7 +13,8 @@ public class OpenSpaceView : TowerView
 
     public override void LoadModel()
     {
-        towerObj = GameLoader.Instance.LoadAssetSync("Resources/Prefabs/OpenSpace.prefab").GameObjectAsset;
+        towerAsset = GameLoader.Instance.LoadAssetSync("Resources/Prefabs/OpenSpace.prefab");
+        towerObj = towerAsset.GameObjectAsset;
         if (towerObj.GetComponent<ClickInfo>() == null)
         {
             ClickInfo clickInfo = towerObj.AddComponent<ClickInfo>();
@@ -59,6 +60,11 @@ public class OpenSpaceView : TowerView
         {
             UiManager.Instance.OpenUI(UIDefine.eSelectPanel, towerInfo);
         }
+    }
+
+    public override void Release()
+    {
+        GameLoader.Instance.UnLoadGameObject(towerAsset);
     }
 }
 
