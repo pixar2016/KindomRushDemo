@@ -36,7 +36,7 @@ public class BattleFingerEvent
         //点击到物体
         if (obj != null && obj.GetComponent<ClickInfo>() != null)
         {
-            Debug.Log("Click Obj");
+            //Debug.Log("Click Obj");
             ClickInfo temp = obj.GetComponent<ClickInfo>();
             temp.fingerDown(temp);
             GameManager.getInstance().curClickInfo = temp;
@@ -44,7 +44,7 @@ public class BattleFingerEvent
         //未点击到任何物体
         else
         {
-            Debug.Log("Not Click Obj");
+            //Debug.Log("Not Click Obj");
             UiManager.Instance.CloseClickPanels();
             GameManager.getInstance().curClickInfo = null;
         }

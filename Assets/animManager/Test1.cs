@@ -112,8 +112,9 @@ public class Test1 : MonoBehaviour {
         //GameManager.getInstance().StartGame();
 
         TowerInfo tower = EntityManager.getInstance().AddTower(1);
-        tower.SetPosition(180, 180, 0);
-        tower = EntityManager.getInstance().AddTower(100);
+        tower.SetPosition(-180, -220, 0);
+        TowerInfo tower1 = EntityManager.getInstance().AddTower(100);
+        tower1.SetPosition(-180, -140, 0);
         //tower.ChangeState("idle");
         
         //UiManager.Instance.OpenUI(UIDefine.eSelectPanel);

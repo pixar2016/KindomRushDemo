@@ -117,11 +117,13 @@
      <Compile Include="Assets\Scripts\Battle\State\TowerState\TowerAtk.cs" />
      <Compile Include="Assets\Scripts\Battle\State\TowerState\TowerIdle.cs" />
      <Compile Include="Assets\Scripts\Battle\View\ArrowTowerView.cs" />
+     <Compile Include="Assets\Scripts\Battle\View\ArtilleryTowerView.cs" />
      <Compile Include="Assets\Scripts\Battle\View\BarrackTowerView.cs" />
      <Compile Include="Assets\Scripts\Battle\View\BulletView.cs" />
      <Compile Include="Assets\Scripts\Battle\View\CharacterView.cs" />
      <Compile Include="Assets\Scripts\Battle\View\EffectView.cs" />
      <Compile Include="Assets\Scripts\Battle\View\EntityViewManager.cs" />
+     <Compile Include="Assets\Scripts\Battle\View\MageTowerView.cs" />
      <Compile Include="Assets\Scripts\Battle\View\OpenSpaceView.cs" />
      <Compile Include="Assets\Scripts\Battle\View\TowerView.cs" />
      <Compile Include="Assets\Scripts\DataPreLoader.cs" />

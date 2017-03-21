@@ -21,6 +21,7 @@ public class ArrowTowerView : TowerView
     {
         towerAsset = GameLoader.Instance.LoadAssetSync("Resources/Prefabs/ArrowTower.prefab");
         towerObj = towerAsset.GameObjectAsset;
+        towerObj.transform.position = this.towerInfo.GetPosition();
         if (towerObj.GetComponent<ClickInfo>() == null)
         {
             ClickInfo clickInfo = towerObj.AddComponent<ClickInfo>();
@@ -105,25 +106,6 @@ public class ArrowTowerView : TowerView
         {
             shooterNum = 1;
             shooter2.startAnimation("attack");
-        }
-    }
-    //被点击
-    public override void FingerDown(ClickInfo curClick)
-    {
-        Debug.Log("FingerDown");
-        //ClickInfo preClick = GameManager.getInstance().curClickInfo;
-        //如果上次点击 点中可交互物体，并且类型相同，Id不同，即点中其他塔，立刻关闭UI
-        //if (preClick != null && preClick.clickType == curClick.clickType && preClick.Id != curClick.Id)
-        //{
-        //    UiManager.Instance.CloseUIById()
-        //}
-        if (UiManager.Instance.HasOpenUI(UIDefine.eSelectPanel))
-        {
-            UiManager.Instance.CloseUIById(UIDefine.eSelectPanel);
-        }
-        else
-        {
-            UiManager.Instance.OpenUI(UIDefine.eSelectPanel, towerInfo);
         }
     }
 

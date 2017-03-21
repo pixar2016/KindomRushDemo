@@ -1,20 +1,20 @@
-﻿using System;
+﻿using System.Collections;
 using System.Collections.Generic;
 using Hero;
 using UnityEngine;
 
-public class BarrackTowerView : TowerView
+public class ArtilleryTowerView : TowerView
 {
     public Animate towerBase;
-    public BarrackTowerView(BarrackTowerInfo towerInfo)
+
+    public ArtilleryTowerView(AttackTowerInfo towerInfo)
     {
         this.towerInfo = towerInfo;
-        this.towerInfo.eventDispatcher.Register("DoAction", DoAction);
     }
 
     public override void LoadModel()
     {
-        towerAsset = GameLoader.Instance.LoadAssetSync("Resources/Prefabs/SoliderTower.prefab");
+        towerAsset = GameLoader.Instance.LoadAssetSync("Resources/Prefabs/MageTower.prefab");
         towerObj = towerAsset.GameObjectAsset;
         towerObj.transform.position = this.towerInfo.GetPosition();
         if (towerObj.GetComponent<ClickInfo>() == null)
@@ -27,6 +27,7 @@ public class BarrackTowerView : TowerView
             ClickInfo clickInfo = towerObj.GetComponent<ClickInfo>();
             clickInfo.OnInit(ClickType.Tower, this.towerInfo.Id, FingerDown);
         }
+        //加载塔身图片
         if (towerObj.GetComponent<Animate>() != null)
         {
             towerBase = towerObj.GetComponent<Animate>();
@@ -42,7 +43,6 @@ public class BarrackTowerView : TowerView
     public override void DoAction(object[] data)
     {
         string actionName = data[0].ToString();
-        Debug.Log("BarrackTowerView  Do Action " + actionName);
         towerBase.startAnimation(actionName);
     }
 

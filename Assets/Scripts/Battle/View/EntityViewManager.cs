@@ -119,6 +119,21 @@ public class EntityViewManager
             towerId = spaceInfo.Id;
             towerView = new OpenSpaceView(spaceInfo);
         }
+        //魔法塔
+        else if (tempInfo.towerType == 2)
+        {
+            AttackTowerInfo towerInfo = (AttackTowerInfo)tempInfo;
+            towerId = towerInfo.Id;
+            towerView = new MageTowerView(towerInfo);
+        }
+        //炮塔
+        else if (tempInfo.towerType == 3)
+        {
+            AttackTowerInfo towerInfo = (AttackTowerInfo)tempInfo;
+            towerId = towerInfo.Id;
+            towerView = new ArtilleryTowerView(towerInfo);
+        }
+        //箭塔
         else
         {
             AttackTowerInfo towerInfo = (AttackTowerInfo)tempInfo;

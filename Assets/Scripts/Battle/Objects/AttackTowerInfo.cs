@@ -32,7 +32,16 @@ public class AttackTowerInfo : TowerInfo
         attackSkillList = new List<SkillInfo>();
         attackSkillList.Add(GetSpaceSkillInfo());
         attackSkill = SkillManager.getInstance().AddSkill(2, this);
-        attackTime = AnimationCache.getInstance().getAnimation(this.shooter).getMeshAnimation("attack").getAnimTime();
+        //若有弓手，攻击时长为弓手攻击动作
+        if (this.shooter != null)
+        {
+            attackTime = AnimationCache.getInstance().getAnimation(this.shooter).getMeshAnimation("attack").getAnimTime();
+        }
+        //若没有弓手，攻击时长为塔身攻击动作
+        else
+        {
+            attackTime = AnimationCache.getInstance().getAnimation(this.towerBase).getMeshAnimation("attack").getAnimTime();
+        }
     }
 
     public SkillInfo GetSpaceSkillInfo()
