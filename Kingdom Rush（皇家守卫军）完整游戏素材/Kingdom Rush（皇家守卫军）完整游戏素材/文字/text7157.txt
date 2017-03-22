@@ -1,1 +1,0 @@
-﻿Magic resistant enemies take less damage from wizards.

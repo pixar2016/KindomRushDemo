@@ -1,1 +1,0 @@
-﻿Heroes gain experience every time they damage an enemy or use an ability.

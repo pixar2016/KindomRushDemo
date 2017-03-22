@@ -1,1 +1,0 @@
-﻿You can disable autopause via the Options Menu

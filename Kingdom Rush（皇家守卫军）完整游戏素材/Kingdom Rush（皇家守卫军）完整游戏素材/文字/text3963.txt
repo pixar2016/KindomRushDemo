@@ -1,1 +1,0 @@
-﻿<p align="left"><font face="Comic Book" size="20" color="#f5ca89" letterSpacing="0.000000" kerning="1">&lt;tower name&gt;</font></p>

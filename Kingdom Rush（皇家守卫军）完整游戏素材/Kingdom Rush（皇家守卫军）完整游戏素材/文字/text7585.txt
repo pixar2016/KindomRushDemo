@@ -1,1 +1,0 @@
-﻿flying enemies can't be blocked nor targeted by most artillery

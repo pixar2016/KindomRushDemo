@@ -1,1 +1,0 @@
-﻿curses enemies damaging them and reducing their armor for a while.

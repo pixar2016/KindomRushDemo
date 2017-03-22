@@ -1,1 +1,0 @@
-﻿<p align="right"><font face="Tahoma" size="11" color="#efeded" letterSpacing="0.000000" kerning="1">v1.13</font></p>

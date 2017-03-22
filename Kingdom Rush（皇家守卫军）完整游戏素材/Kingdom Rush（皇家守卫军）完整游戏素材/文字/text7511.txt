@@ -1,1 +1,0 @@
-﻿pillager's area attacks ignore armor protection.

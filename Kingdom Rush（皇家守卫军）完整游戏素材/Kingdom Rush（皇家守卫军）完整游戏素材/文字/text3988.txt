@@ -1,1 +1,0 @@
-﻿<p align="center"><font face="Comic Book" size="15" color="#e6d8bb" letterSpacing="1.000000" kerning="1">Mage towers and some special </font></p><p align="center"><font face="Comic Book" size="15" color="#e6d8bb" letterSpacing="1.000000" kerning="1">abilities deal magic damage wich ignores regular armor.</font></p>
