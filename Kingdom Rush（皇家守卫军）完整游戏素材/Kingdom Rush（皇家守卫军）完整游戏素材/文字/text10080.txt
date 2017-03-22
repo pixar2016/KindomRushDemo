@@ -1,0 +1,1 @@
+﻿<p align="left"><font face="Argos" size="13" color="#ffffff" letterSpacing="0.000000" kerning="1">Spell Name</font></p>

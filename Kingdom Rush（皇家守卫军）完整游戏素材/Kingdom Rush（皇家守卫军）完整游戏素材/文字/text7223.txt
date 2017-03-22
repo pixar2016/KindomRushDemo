@@ -1,0 +1,1 @@
+﻿spawns paladins with full plate armor that can block enemies longer

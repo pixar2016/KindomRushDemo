@@ -1,0 +1,1 @@
+﻿<p align="left"><font face="Comic Book" size="14" color="#e6d8bb" letterSpacing="0.500000" kerning="1">&lt;armor&gt;</font></p>

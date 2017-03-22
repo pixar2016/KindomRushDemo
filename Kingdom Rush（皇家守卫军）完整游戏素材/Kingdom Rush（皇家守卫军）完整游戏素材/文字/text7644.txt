@@ -1,0 +1,1 @@
+﻿explosions ignore half the armor rating

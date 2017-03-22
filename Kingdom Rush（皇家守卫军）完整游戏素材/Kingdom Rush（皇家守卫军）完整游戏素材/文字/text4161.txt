@@ -1,0 +1,1 @@
+﻿<p align="center"><font face="Comic Book" size="18" color="#990000" letterSpacing="0.000000" kerning="1">mode locked</font></p><p align="center"><font face="Comic Book" size="14" color="#372a24" letterSpacing="0.000000" kerning="1">unlock this mode by <sbr />completing this <sbr />stage with 3 stars</font></p>

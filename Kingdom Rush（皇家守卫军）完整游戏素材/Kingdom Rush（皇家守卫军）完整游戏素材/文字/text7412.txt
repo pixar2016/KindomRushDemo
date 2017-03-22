@@ -1,0 +1,1 @@
+﻿vicious axes deal full damage regardless of armor

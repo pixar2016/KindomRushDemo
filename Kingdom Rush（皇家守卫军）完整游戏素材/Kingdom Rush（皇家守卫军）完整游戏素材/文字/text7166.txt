@@ -1,0 +1,1 @@
+﻿Shows level, health and experience.

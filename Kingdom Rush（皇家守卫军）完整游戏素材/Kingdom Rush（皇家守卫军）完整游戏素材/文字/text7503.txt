@@ -1,0 +1,1 @@
+﻿raider's ranged attacks ignore armor protection.

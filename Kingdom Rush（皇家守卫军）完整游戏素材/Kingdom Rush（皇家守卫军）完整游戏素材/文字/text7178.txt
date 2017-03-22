@@ -1,0 +1,1 @@
+﻿Armored enemies take less damage from marksmen, soldiers and artillery.

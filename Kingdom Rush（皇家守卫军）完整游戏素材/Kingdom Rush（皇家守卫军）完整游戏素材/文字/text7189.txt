@@ -1,0 +1,1 @@
+﻿shoots bolts of lightning that can strike multiple ground and flying enemies.

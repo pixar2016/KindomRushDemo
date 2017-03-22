@@ -1,0 +1,1 @@
+﻿CLICK on the path to move the hero.
