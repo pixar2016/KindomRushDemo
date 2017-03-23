@@ -143,9 +143,11 @@
      <Compile Include="Assets\Scripts\Trigger\info\TriggerInfo.cs" />
      <Compile Include="Assets\Scripts\Trigger\logic\TriggerCondBase.cs" />
      <Compile Include="Assets\Scripts\Trigger\logic\TriggerCondLogic_ActionEnd.cs" />
+     <Compile Include="Assets\Scripts\Trigger\logic\TriggerCondLogic_BulletReach.cs" />
      <Compile Include="Assets\Scripts\Trigger\logic\TriggerCondLogic_SkillEvent.cs" />
      <Compile Include="Assets\Scripts\Trigger\logic\TriggerEffectBase.cs" />
      <Compile Include="Assets\Scripts\Trigger\logic\TriggerEffectLogic_Action.cs" />
+     <Compile Include="Assets\Scripts\Trigger\logic\TriggerEffectLogic_AreaDamage.cs" />
      <Compile Include="Assets\Scripts\Trigger\logic\TriggerEffectLogic_Bullet.cs" />
      <Compile Include="Assets\Scripts\Trigger\logic\TriggerEffectLogic_Hurt.cs" />
      <Compile Include="Assets\Scripts\Trigger\logic\TriggerEffectLogic_SkillEvent.cs" />

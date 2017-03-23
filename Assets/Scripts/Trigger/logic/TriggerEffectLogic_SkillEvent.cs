@@ -13,7 +13,7 @@ public class TriggerEffectLogic_SkillEvent : TriggerEffectBase
         CharacterInfo charInfo = triggerInfo.charInfo;
         if (effectInfo.paramList != null && effectInfo.paramList[0] == "end")
         {
-            SkillManager.getInstance().EndSkill(triggerInfo.skillInfo);
+            SkillManager.getInstance().EndSkill(triggerInfo.skillInfo, triggerInfo.triggerGroup);
         }
     }
 }

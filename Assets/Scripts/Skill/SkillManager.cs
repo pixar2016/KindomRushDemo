@@ -57,9 +57,9 @@ public class SkillManager
         skillInfo.Start();
     }
 
-    public void EndSkill(SkillInfo skillInfo)
+    public void EndSkill(SkillInfo skillInfo, TriggerGroup trigger)
     {
-        skillInfo.End();
+        skillInfo.End(trigger);
     }
 
     public void Update()

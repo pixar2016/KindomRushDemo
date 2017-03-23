@@ -84,10 +84,10 @@ public class EntityManager {
         return effectInfo;
     }
     //添加子弹
-    public BulletInfo AddBullet(int effectId, CharacterInfo charInfo, Vector3 startPos, Vector3 endPos, float speed)
+    public BulletInfo AddBullet(int effectId, CharacterInfo charInfo, Vector3 startPos, Vector3 endPos, float speed, int triggerGroupId = 0)
     {
         bulletIndexId += 1;
-        BulletInfo effectInfo = new BulletInfo(bulletIndexId, effectId, charInfo, startPos, endPos, speed);
+        BulletInfo effectInfo = new BulletInfo(bulletIndexId, effectId, charInfo, startPos, endPos, speed, triggerGroupId);
         bullets.Add(bulletIndexId, effectInfo);
         this.eventDispatcher.Broadcast("AddBullet", effectInfo);
         return effectInfo;

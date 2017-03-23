@@ -31,6 +31,7 @@ public class TriggerManager
     {
         RegisterCondLogic("SkillEvent", new TriggerCondLogic_SkillEvent());
         RegisterCondLogic("ActionEnd", new TriggerCondLogic_ActionEnd());
+        RegisterCondLogic("BulletReach", new TriggerCondLogic_BulletReach());
         RegisterEffectLogic("Action", new TriggerEffectLogic_Action());
         RegisterEffectLogic("Hurt", new TriggerEffectLogic_Hurt());
         RegisterEffectLogic("Bullet", new TriggerEffectLogic_Bullet());

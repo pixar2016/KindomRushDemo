@@ -23,17 +23,21 @@ public class BulletInfo
     public Quaternion quaternion;
     //发射子弹的塔或者兵种
     public CharacterInfo charInfo;
+    //发射子弹的触发器Id
+    public int triggerGroupId;
 
-    public BulletInfo(int bulletIndexId, int _bulletId, CharacterInfo charInfo, Vector3 _startPos, Vector3 _endPos, float _speed)
+    public BulletInfo(int bulletIndexId, int _bulletId, CharacterInfo _charInfo, Vector3 _startPos, Vector3 _endPos, float _speed, int _triggerGroupId)
     {
         Id = bulletIndexId;
         bulletId = _bulletId;
+        charInfo = _charInfo;
         bulletName = "arrow";
         startPos = _startPos;
         endPos = _endPos;
         //speed = _speed;
-        speed = Vector3.Distance(startPos, endPos) / 0.5f;
+        speed = Vector3.Distance(startPos, endPos) / 10f;
         pos = startPos;
+        triggerGroupId = _triggerGroupId;
     }
 
     public Vector3 GetPosition()
@@ -55,6 +59,7 @@ public class BulletInfo
     {
         if (Vector3.Distance(pos, endPos) < 0.1)
         {
+            this.charInfo.eventDispatcher.Broadcast("BulletReach", triggerGroupId);
             EntityManager.getInstance().RemoveBullet(this.Id);
         }
         else

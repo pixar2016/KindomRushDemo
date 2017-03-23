@@ -32,6 +32,10 @@ public class TriggerCondInfo
         {
             this.triggerInfo.charInfo.eventDispatcher.Register("ActionEnd", ActionEnd);
         }
+        else if (this.EventName == "BulletReach")
+        {
+            this.triggerInfo.charInfo.eventDispatcher.Register("BulletReach", BulletReach);
+        }
     }
 
     public void Reset()
@@ -58,5 +62,14 @@ public class TriggerCondInfo
     {
         //Debug.Log("Receive ActionEnd");
         this.isConditionMatch = true;
+    }
+
+    public void BulletReach(object[] paramList)
+    {
+        int triggerGroupId = (int)paramList[0];
+        if (this.triggerInfo.triggerGroup.Id == triggerGroupId)
+        {
+            this.isConditionMatch = true;
+        }
     }
 }

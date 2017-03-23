@@ -14,6 +14,9 @@ public class Test1 : MonoBehaviour {
     List<SoliderInfo> soliderList;
 
     CTimerSystem m_TimerSystem = null;
+
+    public TowerInfo tower;
+    public MonsterInfo monster;
 	// Use this for initialization
     void Awake()
     {
@@ -100,22 +103,24 @@ public class Test1 : MonoBehaviour {
         GameObject uiroot = GameObject.Find("Canvas").gameObject;
         UiManager.Instance.Init(uiroot);
 
-        //PathLoader.getInstance().LoadPath("level0");
-        //PathInfo path = PathLoader.getInstance().GetPath("0");
+        PathLoader pathloader = new PathLoader();
+        pathloader.LoadPath("level1");
+        PathInfo path = pathloader.GetPath("1");
         //path.PrintAllPoint();
 
-        //charInfo = EntityManager.getInstance().AddMonster(10001);
-        //charInfo.SetPosition(-1, 1, 0);
+        
         //charInfo.ChangeState("move");
         BattleFingerEvent.getInstance();
         //GameManager.getInstance().LoadLevel(1);
         //GameManager.getInstance().StartGame();
-
-        TowerInfo tower = EntityManager.getInstance().AddTower(1);
+        monster = EntityManager.getInstance().AddMonster(10001, path);
+        monster.SetPosition(-180, -150, 0);
+        tower = EntityManager.getInstance().AddTower(1);
         tower.SetPosition(-180, -220, 0);
-        TowerInfo tower1 = EntityManager.getInstance().AddTower(100);
-        tower1.SetPosition(-180, -140, 0);
-        //tower.ChangeState("idle");
+        tower.ChangeState("idle");
+        //TowerInfo tower1 = EntityManager.getInstance().AddTower(100);
+        //tower1.SetPosition(-180, -140, 0);
+        
         
         //UiManager.Instance.OpenUI(UIDefine.eSelectPanel);
         //TowerInfo tower = EntityManager.getInstance().AddTower(16);
@@ -181,6 +186,10 @@ public class Test1 : MonoBehaviour {
         if (Input.GetKeyDown(KeyCode.D))
         {
             charInfo.ChangeState("move");
+        }
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            monster.SetPosition(100, 0, 0);
         }
         EntityManager.getInstance().Update();
         EntityViewManager.getInstance().Update();
