@@ -229,16 +229,16 @@
      <Compile Include="Assets\animManager\Test1.cs" />
      <Compile Include="Assets\test.cs" />
      <Compile Include="Assets\testFinger.cs" />
+     <None Include="Assets\Resources\Config\Helper.txt" />
      <None Include="Assets\Readme.txt" />
      <None Include="Assets\Data\CSModel.txt" />
-     <None Include="Assets\Resources\Config\Monster.txt" />
-     <None Include="Assets\Resources\Config\Tower2.txt" />
      <None Include="Assets\Resources\Config\Tower1.txt" />
-     <None Include="Assets\Resources\Config\monster1.txt" />
+     <None Include="Assets\Resources\Config\Monster1.txt" />
      <None Include="Assets\SuperSplinesPro\ReadMe.txt" />
-     <None Include="Assets\Resources\Config\SavageBird.txt" />
-     <None Include="Assets\Resources\Config\Solider.txt" />
+     <None Include="Assets\Resources\Config\Solider1.txt" />
+     <None Include="Assets\Resources\Config\TowerShooter.txt" />
      <None Include="Assets\Resources\Shader\Tile.shader" />
+     <None Include="Assets\Resources\Config\Monster2.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

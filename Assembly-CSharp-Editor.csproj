@@ -55,16 +55,16 @@
      <Compile Include="Assets\SuperSplinesPro\SuperSplines\Editor\_CustomDrawers\CustomArrayDrawer.cs" />
      <Compile Include="Assets\SuperSplinesPro\SuperSplines\Editor\_EditorUtilities\EditorGUILayoutUtilities.cs" />
      <Compile Include="Assets\SuperSplinesPro\SuperSplines\Editor\_EditorUtilities\InstantInspector.cs" />
+     <None Include="Assets\Resources\Config\Helper.txt" />
      <None Include="Assets\Readme.txt" />
      <None Include="Assets\Data\CSModel.txt" />
-     <None Include="Assets\Resources\Config\Monster.txt" />
-     <None Include="Assets\Resources\Config\Tower2.txt" />
      <None Include="Assets\Resources\Config\Tower1.txt" />
-     <None Include="Assets\Resources\Config\monster1.txt" />
+     <None Include="Assets\Resources\Config\Monster1.txt" />
      <None Include="Assets\SuperSplinesPro\ReadMe.txt" />
-     <None Include="Assets\Resources\Config\SavageBird.txt" />
-     <None Include="Assets\Resources\Config\Solider.txt" />
+     <None Include="Assets\Resources\Config\Solider1.txt" />
+     <None Include="Assets\Resources\Config\TowerShooter.txt" />
      <None Include="Assets\Resources\Shader\Tile.shader" />
+     <None Include="Assets\Resources\Config\Monster2.txt" />
  <Reference Include="Assembly-UnityScript">
  <HintPath>D:/KindomRushDemo/KindomRushDemo/Library/ScriptAssemblies/Assembly-UnityScript.dll</HintPath>
  </Reference>

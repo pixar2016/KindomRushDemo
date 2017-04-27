@@ -30,10 +30,12 @@ public class Test1 : MonoBehaviour {
         //DataPreLoader.getInstance().LoadData("Monsters");
         //根据图片信息txt将图片里帧信息分离出来
         //SpriteFrameCache.getInstance().addSpriteFrameFromFile("Resources/Config/monster1.txt");
-        SpriteFrameCache.getInstance().addSpriteFrameFromFile("Resources/Config/Monster.txt");
-        SpriteFrameCache.getInstance().addSpriteFrameFromFile("Resources/Config/Solider.txt");
+        SpriteFrameCache.getInstance().addSpriteFrameFromFile("Resources/Config/Helper.txt");
+        SpriteFrameCache.getInstance().addSpriteFrameFromFile("Resources/Config/Monster1.txt");
+        SpriteFrameCache.getInstance().addSpriteFrameFromFile("Resources/Config/Monster2.txt");
+        SpriteFrameCache.getInstance().addSpriteFrameFromFile("Resources/Config/Solider1.txt");
         SpriteFrameCache.getInstance().addSpriteFrameFromFile("Resources/Config/Tower1.txt");
-        SpriteFrameCache.getInstance().addSpriteFrameFromFile("Resources/Config/Tower2.txt");
+        SpriteFrameCache.getInstance().addSpriteFrameFromFile("Resources/Config/TowerShooter.txt");
         AnimationCache animCache = AnimationCache.getInstance();
         //第一个参数 createAnimation（参数1-图片名字 参数2-图片开始序号 参数3-图片结束序号 参数4-动画间隔 参数5-是否循环）
         //第二个参数 动画名称
@@ -92,7 +94,7 @@ public class Test1 : MonoBehaviour {
         animCache.addAnimation(animCache.createAnimation("mageTowerMasterShooter_", 3, 4, 0.1f, false), "mageTowerMasterShooter", "attack");
         animCache.addAnimation(animCache.createAnimation("mageTowerMasterShooter_", 5, 6, 0.1f, false), "mageTowerMasterShooter", "attack1");
         //弓箭特效
-        animCache.addAnimation(animCache.createAnimation("arrow_", 1, 1, 0.1f, true), "arrow");
+        animCache.addAnimation(animCache.createAnimation("arrow", 0, 0, 0.1f, true), "arrow");
 
         J_Map.LoadConfig();
         J_Creature.LoadConfig();
@@ -113,36 +115,12 @@ public class Test1 : MonoBehaviour {
         BattleFingerEvent.getInstance();
         //GameManager.getInstance().LoadLevel(1);
         //GameManager.getInstance().StartGame();
-        monster = EntityManager.getInstance().AddMonster(10001, path);
+        monster = EntityManager.getInstance().AddMonster(10002, path);
         monster.SetPosition(-180, -150, 0);
-        tower = EntityManager.getInstance().AddTower(1);
-        tower.SetPosition(-180, -220, 0);
-        tower.ChangeState("idle");
-        //TowerInfo tower1 = EntityManager.getInstance().AddTower(100);
-        //tower1.SetPosition(-180, -140, 0);
+        //tower = EntityManager.getInstance().AddTower(1);
+        //tower.SetPosition(-180, -220, 0);
+        //tower.ChangeState("idle");
         
-        
-        //UiManager.Instance.OpenUI(UIDefine.eSelectPanel);
-        //TowerInfo tower = EntityManager.getInstance().AddTower(16);
-        //tower.ChangeState("start");
-        //CharacterInfo cc = new SoliderInfo(1, 10001);
-        //if (cc.GetType().ToString() == "SoliderInfo")
-        //{
-        //    Debug.Log("111111111111111111");
-        //}
-
-        //Animate charAnim;
-        //GameObject charObj = GameLoader.Instance.LoadAssetSync("Resources/Prefabs/fly.prefab").GameObjectAsset;
-        //if (charObj.GetComponent<Animate>() != null)
-        //{
-        //    charAnim = charObj.GetComponent<Animate>();
-        //}
-        //else
-        //{
-        //    charAnim = charObj.AddComponent<Animate>();
-        //}
-        //charAnim.OnInit(AnimationCache.getInstance().getAnimation("mageTowerBullet"));
-        //charAnim.startAnimation();
     }
 
     public void StartAI()

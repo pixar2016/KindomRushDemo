@@ -72,12 +72,23 @@ public class AnimationCache
     public MeshAnimation createAnimation(string imageName, int start, int end, float delay, bool isLoop = true)
     {
         List<SpriteFrame> animFrames = new List<SpriteFrame>();
-        for (int i = start; i <= end; i++)
+        if (start <= 0 && end <= 0)
         {
-            SpriteFrame frame = SpriteFrameCache.getInstance().getSpriteFrame(imageName + i + ".png");
+            SpriteFrame frame = SpriteFrameCache.getInstance().getSpriteFrame(imageName + ".png");
             if (frame != null)
             {
                 animFrames.Add(frame);
+            }
+        }
+        else
+        {
+            for (int i = start; i <= end; i++)
+            {
+                SpriteFrame frame = SpriteFrameCache.getInstance().getSpriteFrame(imageName + i + ".png");
+                if (frame != null)
+                {
+                    animFrames.Add(frame);
+                }
             }
         }
         MeshAnimation anim = new MeshAnimation();

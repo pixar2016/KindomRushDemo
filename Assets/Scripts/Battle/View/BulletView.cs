@@ -27,6 +27,7 @@ public class BulletView
         {
             bulletAnim = bulletObj.AddComponent<Animate>();
         }
+        Debug.Log(bulletInfo.bulletName);
         bulletAnim.OnInit(AnimationCache.getInstance().getAnimation(bulletInfo.bulletName));
         bulletAnim.startAnimation();
     }
